@@ -1,17 +1,9 @@
 package git_test2;
 
 public class Hello {
-	String message;
-	
-	public Hello() {
-		this("안녕하세요");
-	}
-	
-	public Hello(String message) {
-		this.message = message;
-	}
-	public void say() {
-		System.out.println("반갑습니다." + message + "잘부탁드려요.");
+	String message = "안녕하세요";
+	public String say() {
+		return message;
 	}
 
 }
