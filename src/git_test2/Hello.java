@@ -11,7 +11,7 @@ public class Hello {
 		this.message = message;
 	}
 	public void say() {
-		System.out.println(message + "반갑습니다." + "잘부탁드려요.");
+		System.out.println("반갑습니다." + message + "잘부탁드려요.");
 	}
 
 }
